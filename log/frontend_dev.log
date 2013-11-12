@@ -23496,3 +23496,607 @@ Nov 12 08:26:36 symfony [info] {sfWebDebugLogger} Partial "a/_subnav" 554.54 ms 
 Nov 12 08:26:36 symfony [info] {sfWebDebugLogger} Partial "a/_googleAnalytics" 23.71 ms (1)
 Nov 12 08:26:36 symfony [info] {sfWebDebugLogger} Partial "a/_globalJavascripts" 6.41 ms (1)
 Nov 12 08:26:36 symfony [info] {sfWebResponse} Send content (229310 o)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfRoute "taggable_add_tag" (/admin/addTag/:object_class/:object_id)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfRoute "taggable_remove_tag" (/admin/removeTag/:object_class/:object_id)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_clean" (/admin/tags/clean.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin" (/admin/tags.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_new" (/admin/tags/new.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_create" (/admin/tags.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_edit" (/admin/tags/:id/edit.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_update" (/admin/tags/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_delete" (/admin/tags/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_show" (/admin/tags/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_object" (/admin/tags/:id/:action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_collection" (/admin/tags/:action/action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin" (/admin/categories.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_new" (/admin/categories/new.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_create" (/admin/categories.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_edit" (/admin/categories/:id/edit.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_update" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_delete" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_show" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_object" (/admin/categories/:id/:action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_collection" (/admin/categories/:action/action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin" (/admin/user.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_new" (/admin/user/new.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_create" (/admin/user.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_edit" (/admin/user/:id/edit.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_update" (/admin/user/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_delete" (/admin/user/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_show" (/admin/user/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_object" (/admin/user/:id/:action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_collection" (/admin/user/:action/action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin" (/admin/group.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_new" (/admin/group/new.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_create" (/admin/group.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_edit" (/admin/group/:id/edit.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_update" (/admin/group/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_delete" (/admin/group/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_show" (/admin/group/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_object" (/admin/group/:id/:action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_collection" (/admin/group/:action/action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin" (/admin/permission.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_new" (/admin/permission/new.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_create" (/admin/permission.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_edit" (/admin/permission/:id/edit.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_update" (/admin/permission/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_delete" (/admin/permission/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_show" (/admin/permission/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_object" (/admin/permission/:id/:action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_collection" (/admin/permission/:action/action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfRoute "a_sync" (/async/:action)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_admin" (/)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_posts" (/admin/categories/posts.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_events" (/admin/categories/events.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin" (/admin/categories.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_new" (/admin/categories/new.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_create" (/admin/categories.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_edit" (/admin/categories/:id/edit.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_update" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_delete" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_show" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_object" (/admin/categories/:id/:action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_collection" (/admin/categories/:action/action.:sf_format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_other" (/:action)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_image_show" (/view/:slug)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_image_original" (/uploads/media_items/:slug.original.:format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_image" (/uploads/media_items/:slug.:width.:height.:resizeType.:format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_image_cropped" (/uploads/media_items/:slug.:cropLeft.:cropTop.:cropWidth.:cropHeight.:width.:height.:resizeType.:format)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index" (/)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_type" (/:type)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_category" (/category/:category)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_deprecated_tag" (/tag/:tag)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_tag" (/tag)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_select" (/select)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_info" (/admin/media-api/info)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_tags" (/admin/media-api/tags)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_upload" (/upload)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_edit_multiple" (/editMultiple)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_edit" (/edit)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_new_video" (/newVideo)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Connect aRoute "a_media_edit_video" (/editVideo)
+Nov 12 10:14:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'utf8' - ()
+Nov 12 10:14:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, LENGTH(a.slug) AS a__0 FROM a_page a WHERE (a.slug IN (?, ?) AND a.engine IS NOT NULL) ORDER BY a__0 desc LIMIT 1 - (/contact, /)
+Nov 12 10:14:24 symfony [info] {sfPatternRouting} Match route "a_page" (/:slug) for /contact with parameters array (  'module' => 'a',  'action' => 'show',  'slug' => 'contact',)
+Nov 12 10:14:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 10:14:24 symfony [info] {sfFilterChain} Executing filter "aCacheFilter"
+Nov 12 10:14:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 10:14:24 symfony [info] {aActions} Call "aActions->executeShow()"
+Nov 12 10:14:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a.slug = ?) ORDER BY a4.rank asc - (en, /contact)
+Nov 12 10:14:24 symfony [info] {aActions} Change template to "CURRENT/default"
+Nov 12 10:14:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.name AS t__name FROM tag t LEFT JOIN tagging t2 ON t.id = t2.tag_id WHERE (t2.taggable_id = ? AND t2.taggable_model = ?) - (3, aPage)
+Nov 12 10:14:24 symfony [info] {sfPHPView} Render "/home/prabhu/Projects/asandbox/apps/frontend/modules/a/templates/defaultTemplate.php"
+Nov 12 10:14:24 symfony [info] {main} Set slot "a-body-class"
+Nov 12 10:14:24 symfony [info] {main} Call "a->executeStandardArea()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_standardArea.php"
+Nov 12 10:14:24 symfony [info] {main} Call "a->executeArea()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_area.php"
+Nov 12 10:14:24 symfony [info] {main} Set slot "a-slot-content-3-body-2"
+Nov 12 10:14:24 symfony [info] {main} Call "a->executeSlot()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_slot.php"
+Nov 12 10:14:24 symfony [info] {main} Set slot "a-slot-content-width-3-body-2"
+Nov 12 10:14:24 symfony [info] {main} Call "aRichTextSlot->executeNormalView()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aRichTextSlot/templates/_normalView.php"
+Nov 12 10:14:24 symfony [info] {main} Get slot "a-slot-content-width-3-body-2"
+Nov 12 10:14:24 symfony [info] {main} Get slot "a-slot-content-3-body-2"
+Nov 12 10:14:24 symfony [info] {main} Set slot "a-slot-content-3-body-1"
+Nov 12 10:14:24 symfony [info] {main} Call "a->executeSlot()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_slot.php"
+Nov 12 10:14:24 symfony [info] {main} Set slot "a-slot-content-width-3-body-1"
+Nov 12 10:14:24 symfony [info] {main} Call "aRichTextSlot->executeNormalView()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aRichTextSlot/templates/_normalView.php"
+Nov 12 10:14:24 symfony [info] {main} Get slot "a-slot-content-width-3-body-1"
+Nov 12 10:14:24 symfony [info] {main} Get slot "a-slot-content-3-body-1"
+Nov 12 10:14:24 symfony [info] {main} Call "a->executeStandardArea()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_standardArea.php"
+Nov 12 10:14:24 symfony [info] {main} Call "a->executeArea()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_area.php"
+Nov 12 10:14:24 symfony [info] {main} Set slot "a-slot-content-3-sidebar-1"
+Nov 12 10:14:24 symfony [info] {main} Call "a->executeSlot()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_slot.php"
+Nov 12 10:14:24 symfony [info] {main} Set slot "a-slot-content-width-3-sidebar-1"
+Nov 12 10:14:24 symfony [info] {main} Call "aRichTextSlot->executeNormalView()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aRichTextSlot/templates/_normalView.php"
+Nov 12 10:14:24 symfony [info] {main} Get slot "a-slot-content-width-3-sidebar-1"
+Nov 12 10:14:24 symfony [info] {main} Get slot "a-slot-content-3-sidebar-1"
+Nov 12 10:14:24 symfony [info] {main} Set slot "a-footer"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_footer.php"
+Nov 12 10:14:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a.slug = ?) ORDER BY a4.rank asc - (en, global)
+Nov 12 10:14:24 symfony [info] {main} Call "a->executeArea()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_area.php"
+Nov 12 10:14:24 symfony [info] {main} Set slot "a-slot-content-11-footer-1"
+Nov 12 10:14:24 symfony [info] {main} Call "a->executeSlot()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_slot.php"
+Nov 12 10:14:24 symfony [info] {main} Set slot "a-slot-content-width-11-footer-1"
+Nov 12 10:14:24 symfony [info] {main} Call "aRichTextSlot->executeNormalView()"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aRichTextSlot/templates/_normalView.php"
+Nov 12 10:14:24 symfony [info] {main} Get slot "a-slot-content-width-11-footer-1"
+Nov 12 10:14:24 symfony [info] {main} Get slot "a-slot-content-11-footer-1"
+Nov 12 10:14:24 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostropheFeedbackPlugin/modules/aFeedback/templates/_feedbackForm.php"
+Nov 12 10:14:24 symfony [info] {sfPHPView} Decorate content with "/home/prabhu/Projects/asandbox/apps/frontend/templates/layout.php"
+Nov 12 10:14:24 symfony [info] {sfPHPView} Render "/home/prabhu/Projects/asandbox/apps/frontend/templates/layout.php"
+Nov 12 10:14:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a.slug = ?) ORDER BY a4.rank asc - (en, /)
+Nov 12 10:14:25 symfony [info] {main} Get slot "a-body-class"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_doNotEdit.php"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_globalTools.php"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_apostrophe.php"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_login.php"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_language.php"
+Nov 12 10:14:25 symfony [info] {main} Call "a->executeSigninForm()"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_signinForm.php"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_search.php"
+Nov 12 10:14:25 symfony [info] {main} Call "a->executeArea()"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_area.php"
+Nov 12 10:14:25 symfony [info] {main} Set slot "a-slot-content-11-logo-1"
+Nov 12 10:14:25 symfony [info] {main} Call "a->executeSlot()"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_slot.php"
+Nov 12 10:14:25 symfony [info] {main} Set slot "a-slot-content-width-11-logo-1"
+Nov 12 10:14:25 symfony [info] {main} Call "aButtonSlot->executeNormalView()"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aButtonSlot/templates/_normalView.php"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aButtonSlot/templates/_defaultTemplate.php"
+Nov 12 10:14:25 symfony [info] {main} Get slot "a-slot-content-width-11-logo-1"
+Nov 12 10:14:25 symfony [info] {main} Get slot "a-slot-content-11-logo-1"
+Nov 12 10:14:25 symfony [info] {main} Call "aNavigation->executeTabs()"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_tabs.php"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_accordion.php"
+Nov 12 10:14:25 symfony [info] {main} Call "aNavigation->executeBreadcrumb()"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_breadcrumb.php"
+Nov 12 10:14:25 symfony [info] {main} Call "a->executeSubnav()"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_subnav.php"
+Nov 12 10:14:25 symfony [info] {main} Call "aNavigation->executeTabs()"
+Nov 12 10:14:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a2.name = ? AND (a.lft < ? AND a.rgt > ?) AND a.level >= ?) ORDER BY a4.rank asc, a.rgt asc - (en, title, 16, 17, 0)
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_tabs.php"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_accordion.php"
+Nov 12 10:14:25 symfony [info] {main} Get slot "a-footer"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_googleAnalytics.php"
+Nov 12 10:14:25 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_globalJavascripts.php"
+Nov 12 10:14:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 10:14:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Configuration 8.50 ms (51)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Factories 95.62 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.19 ms (7)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Action "a/show" 47.99 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} View "Template" for "a/show" 864.19 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Component "a/standardArea" 0.84 ms (2)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_standardArea" 33.12 ms (2)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Component "a/area" 1.26 ms (4)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_area" 42.73 ms (4)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Component "a/slot" 1.76 ms (5)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_slot" 24.74 ms (5)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Component "aRichTextSlot/normalView" 2.80 ms (4)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "aRichTextSlot/_normalView" 2.62 ms (4)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_footer" 20.91 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "aFeedback/_feedbackForm" 0.44 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_doNotEdit" 0.37 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_globalTools" 46.59 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_apostrophe" 0.72 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_login" 44.75 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_language" 40.17 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Component "a/signinForm" 1.64 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_signinForm" 1.10 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_search" 0.48 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Component "aButtonSlot/normalView" 4.29 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "aButtonSlot/_normalView" 2.10 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "aButtonSlot/_defaultTemplate" 0.69 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Component "aNavigation/tabs" 58.29 ms (2)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "aNavigation/_tabs" 4.35 ms (2)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "aNavigation/_accordion" 2.51 ms (2)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Component "aNavigation/breadcrumb" 1.40 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "aNavigation/_breadcrumb" 0.93 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Component "a/subnav" 0.01 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_subnav" 60.20 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_googleAnalytics" 0.33 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebDebugLogger} Partial "a/_globalJavascripts" 0.53 ms (1)
+Nov 12 10:14:25 symfony [info] {sfWebResponse} Send content (214911 o)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfRoute "taggable_add_tag" (/admin/addTag/:object_class/:object_id)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfRoute "taggable_remove_tag" (/admin/removeTag/:object_class/:object_id)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_clean" (/admin/tags/clean.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin" (/admin/tags.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_new" (/admin/tags/new.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_create" (/admin/tags.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_edit" (/admin/tags/:id/edit.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_update" (/admin/tags/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_delete" (/admin/tags/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_show" (/admin/tags/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_object" (/admin/tags/:id/:action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_collection" (/admin/tags/:action/action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin" (/admin/categories.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_new" (/admin/categories/new.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_create" (/admin/categories.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_edit" (/admin/categories/:id/edit.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_update" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_delete" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_show" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_object" (/admin/categories/:id/:action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_collection" (/admin/categories/:action/action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin" (/admin/user.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_new" (/admin/user/new.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_create" (/admin/user.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_edit" (/admin/user/:id/edit.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_update" (/admin/user/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_delete" (/admin/user/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_show" (/admin/user/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_object" (/admin/user/:id/:action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_collection" (/admin/user/:action/action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin" (/admin/group.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_new" (/admin/group/new.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_create" (/admin/group.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_edit" (/admin/group/:id/edit.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_update" (/admin/group/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_delete" (/admin/group/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_show" (/admin/group/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_object" (/admin/group/:id/:action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_collection" (/admin/group/:action/action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin" (/admin/permission.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_new" (/admin/permission/new.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_create" (/admin/permission.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_edit" (/admin/permission/:id/edit.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_update" (/admin/permission/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_delete" (/admin/permission/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_show" (/admin/permission/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_object" (/admin/permission/:id/:action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_collection" (/admin/permission/:action/action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfRoute "a_sync" (/async/:action)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_admin" (/)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_posts" (/admin/categories/posts.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_events" (/admin/categories/events.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin" (/admin/categories.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_new" (/admin/categories/new.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_create" (/admin/categories.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_edit" (/admin/categories/:id/edit.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_update" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_delete" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_show" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_object" (/admin/categories/:id/:action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_collection" (/admin/categories/:action/action.:sf_format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_other" (/:action)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_image_show" (/view/:slug)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_image_original" (/uploads/media_items/:slug.original.:format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_image" (/uploads/media_items/:slug.:width.:height.:resizeType.:format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_image_cropped" (/uploads/media_items/:slug.:cropLeft.:cropTop.:cropWidth.:cropHeight.:width.:height.:resizeType.:format)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index" (/)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_type" (/:type)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_category" (/category/:category)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_deprecated_tag" (/tag/:tag)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_tag" (/tag)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_select" (/select)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_info" (/admin/media-api/info)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_tags" (/admin/media-api/tags)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_upload" (/upload)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_edit_multiple" (/editMultiple)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_edit" (/edit)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_new_video" (/newVideo)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Connect aRoute "a_media_edit_video" (/editVideo)
+Nov 12 10:14:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'utf8' - ()
+Nov 12 10:14:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, LENGTH(a.slug) AS a__0 FROM a_page a WHERE (a.slug IN (?, ?) AND a.engine IS NOT NULL) ORDER BY a__0 desc LIMIT 1 - (/events, /)
+Nov 12 10:14:27 symfony [info] {sfPatternRouting} Match route "a_event_tag" (/) for /events with parameters array (  'module' => 'aEvent',  'action' => 'index',)
+Nov 12 10:14:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 10:14:27 symfony [info] {sfFilterChain} Executing filter "aCacheFilter"
+Nov 12 10:14:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 10:14:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a.id = ?) ORDER BY a4.rank asc - (en, 8)
+Nov 12 10:14:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.name AS a__name, a.description AS a__description, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.slug AS a__slug, a2.page_id AS a2__page_id, a2.category_id AS a2__category_id FROM a_category a LEFT JOIN a_page_to_category a2 ON a.id = a2.category_id WHERE (a2.page_id IN (?)) - (8)
+Nov 12 10:14:27 symfony [info] {aEventActions} Call "aEventActions->executeIndex()"
+Nov 12 10:14:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.author_id AS a__author_id, a.page_id AS a__page_id, a.title AS a__title, a.slug AS a__slug, a.slug_saved AS a__slug_saved, a.excerpt AS a__excerpt, a.status AS a__status, a.allow_comments AS a__allow_comments, a.template AS a__template, a.published_at AS a__published_at, a.disqus_thread_identifier AS a__disqus_thread_identifier, a.type AS a__type, a.start_date AS a__start_date, a.start_time AS a__start_time, a.end_date AS a__end_date, a.end_time AS a__end_time, a.location AS a__location, a.created_at AS a__created_at, a.updated_at AS a__updated_at, s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM a_blog_item a LEFT JOIN sf_guard_user s ON a.author_id = s.id WHERE (0 <> 0 AND (a.type = 'event')) ORDER BY a.start_date asc, a.start_time asc - ()
+Nov 12 10:14:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.author_id AS a__author_id, a.page_id AS a__page_id, a.title AS a__title, a.slug AS a__slug, a.slug_saved AS a__slug_saved, a.excerpt AS a__excerpt, a.status AS a__status, a.allow_comments AS a__allow_comments, a.template AS a__template, a.published_at AS a__published_at, a.disqus_thread_identifier AS a__disqus_thread_identifier, a.type AS a__type, a.start_date AS a__start_date, a.start_time AS a__start_time, a.end_date AS a__end_date, a.end_time AS a__end_time, a.location AS a__location, a.created_at AS a__created_at, a.updated_at AS a__updated_at, s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM a_blog_item a LEFT JOIN sf_guard_user s ON a.author_id = s.id WHERE (0 <> 0 AND (a.type = 'event')) ORDER BY a.start_date asc, a.start_time asc - ()
+Nov 12 10:14:27 symfony [info] {sfPHPView} Render "/home/prabhu/Projects/asandbox/plugins/apostropheBlogPlugin/modules/aEvent/templates/indexSuccess.php"
+Nov 12 10:14:27 symfony [info] {main} Set slot "body_class"
+Nov 12 10:14:27 symfony [info] {main} Set slot "a-subnav"
+Nov 12 10:14:27 symfony [info] {main} Call "aBlog->executeSidebar()"
+Nov 12 10:14:27 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostropheBlogPlugin/modules/aBlog/templates/_sidebar.php"
+Nov 12 10:14:27 symfony [info] {main} Set slot "a_blog_sidebar_new_post"
+Nov 12 10:14:27 symfony [info] {main} Set slot "a_blog_sidebar_search"
+Nov 12 10:14:27 symfony [info] {main} Set slot "a_blog_sidebar_dates"
+Nov 12 10:14:27 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostropheBlogPlugin/modules/aEvent/templates/_calendar.php"
+Nov 12 10:14:27 symfony [info] {main} Set slot "a_blog_sidebar_categories"
+Nov 12 10:14:27 symfony [info] {main} Set slot "a_blog_sidebar_tags"
+Nov 12 10:14:27 symfony [info] {main} Set slot "a_blog_sidebar_authors"
+Nov 12 10:14:27 symfony [info] {main} Set slot "a_blog_sidebar_feeds"
+Nov 12 10:14:27 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostropheBlogPlugin/modules/aBlog/templates/_sidebarLayout.php"
+Nov 12 10:14:27 symfony [info] {main} Get slot "a_blog_sidebar_new_post"
+Nov 12 10:14:27 symfony [info] {main} Get slot "a_blog_sidebar_search"
+Nov 12 10:14:27 symfony [info] {main} Get slot "a_blog_sidebar_dates"
+Nov 12 10:14:27 symfony [info] {main} Get slot "a_blog_sidebar_categories"
+Nov 12 10:14:27 symfony [info] {main} Get slot "a_blog_sidebar_tags"
+Nov 12 10:14:27 symfony [info] {main} Get slot "a_blog_sidebar_authors"
+Nov 12 10:14:27 symfony [info] {main} Get slot "a_blog_sidebar_entities"
+Nov 12 10:14:27 symfony [info] {main} Get slot "a_blog_sidebar_feeds"
+Nov 12 10:14:27 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostropheBlogPlugin/modules/aBlog/templates/_filters.php"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostropheBlogPlugin/modules/aBlog/templates/_datePrevAndNext.php"
+Nov 12 10:14:28 symfony [info] {sfPHPView} Decorate content with "/home/prabhu/Projects/asandbox/apps/frontend/templates/layout.php"
+Nov 12 10:14:28 symfony [info] {sfPHPView} Render "/home/prabhu/Projects/asandbox/apps/frontend/templates/layout.php"
+Nov 12 10:14:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a.slug = ?) ORDER BY a4.rank asc - (en, /)
+Nov 12 10:14:28 symfony [info] {main} Get slot "body_class"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_doNotEdit.php"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_globalTools.php"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_apostrophe.php"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_login.php"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_language.php"
+Nov 12 10:14:28 symfony [info] {main} Call "a->executeSigninForm()"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_signinForm.php"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_search.php"
+Nov 12 10:14:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a.slug = ?) ORDER BY a4.rank asc - (en, global)
+Nov 12 10:14:28 symfony [info] {main} Call "a->executeArea()"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_area.php"
+Nov 12 10:14:28 symfony [info] {main} Set slot "a-slot-content-11-logo-1"
+Nov 12 10:14:28 symfony [info] {main} Call "a->executeSlot()"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_slot.php"
+Nov 12 10:14:28 symfony [info] {main} Set slot "a-slot-content-width-11-logo-1"
+Nov 12 10:14:28 symfony [info] {main} Call "aButtonSlot->executeNormalView()"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aButtonSlot/templates/_normalView.php"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aButtonSlot/templates/_defaultTemplate.php"
+Nov 12 10:14:28 symfony [info] {main} Get slot "a-slot-content-width-11-logo-1"
+Nov 12 10:14:28 symfony [info] {main} Get slot "a-slot-content-11-logo-1"
+Nov 12 10:14:28 symfony [info] {main} Call "aNavigation->executeTabs()"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_tabs.php"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_accordion.php"
+Nov 12 10:14:28 symfony [info] {main} Call "aNavigation->executeBreadcrumb()"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_breadcrumb.php"
+Nov 12 10:14:28 symfony [info] {main} Get slot "a-subnav"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_footer.php"
+Nov 12 10:14:28 symfony [info] {main} Call "a->executeArea()"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_area.php"
+Nov 12 10:14:28 symfony [info] {main} Set slot "a-slot-content-11-footer-1"
+Nov 12 10:14:28 symfony [info] {main} Call "a->executeSlot()"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_slot.php"
+Nov 12 10:14:28 symfony [info] {main} Set slot "a-slot-content-width-11-footer-1"
+Nov 12 10:14:28 symfony [info] {main} Call "aRichTextSlot->executeNormalView()"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aRichTextSlot/templates/_normalView.php"
+Nov 12 10:14:28 symfony [info] {main} Get slot "a-slot-content-width-11-footer-1"
+Nov 12 10:14:28 symfony [info] {main} Get slot "a-slot-content-11-footer-1"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_googleAnalytics.php"
+Nov 12 10:14:28 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_globalJavascripts.php"
+Nov 12 10:14:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 10:14:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Configuration 17.76 ms (30)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Factories 92.24 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 3.01 ms (8)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Action "aEvent/index" 93.22 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} View "Success" for "aEvent/index" 950.85 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Component "aBlog/sidebar" 0.03 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aBlog/_sidebar" 11.35 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aEvent/_calendar" 4.66 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aBlog/_sidebarLayout" 0.92 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aBlog/_filters" 1.45 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aBlog/_datePrevAndNext" 0.42 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_doNotEdit" 0.52 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_globalTools" 20.88 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_apostrophe" 0.62 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_login" 18.53 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_language" 12.66 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Component "a/signinForm" 1.69 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_signinForm" 1.10 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_search" 1.35 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Component "a/area" 0.48 ms (2)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_area" 20.45 ms (2)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Component "a/slot" 0.66 ms (2)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_slot" 13.06 ms (2)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Component "aButtonSlot/normalView" 5.15 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aButtonSlot/_normalView" 2.16 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aButtonSlot/_defaultTemplate" 0.71 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Component "aNavigation/tabs" 2.09 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aNavigation/_tabs" 2.03 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aNavigation/_accordion" 1.15 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Component "aNavigation/breadcrumb" 1.49 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aNavigation/_breadcrumb" 1.15 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_footer" 8.69 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Component "aRichTextSlot/normalView" 0.34 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "aRichTextSlot/_normalView" 0.63 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_googleAnalytics" 0.31 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebDebugLogger} Partial "a/_globalJavascripts" 0.52 ms (1)
+Nov 12 10:14:28 symfony [info] {sfWebResponse} Send content (206604 o)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfRoute "taggable_add_tag" (/admin/addTag/:object_class/:object_id)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfRoute "taggable_remove_tag" (/admin/removeTag/:object_class/:object_id)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_clean" (/admin/tags/clean.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin" (/admin/tags.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_new" (/admin/tags/new.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_create" (/admin/tags.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_edit" (/admin/tags/:id/edit.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_update" (/admin/tags/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_delete" (/admin/tags/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_show" (/admin/tags/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_object" (/admin/tags/:id/:action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_tag_admin_collection" (/admin/tags/:action/action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin" (/admin/categories.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_new" (/admin/categories/new.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_create" (/admin/categories.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_edit" (/admin/categories/:id/edit.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_update" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_delete" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_show" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_object" (/admin/categories/:id/:action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_collection" (/admin/categories/:action/action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin" (/admin/user.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_new" (/admin/user/new.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_create" (/admin/user.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_edit" (/admin/user/:id/edit.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_update" (/admin/user/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_delete" (/admin/user/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_show" (/admin/user/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_object" (/admin/user/:id/:action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_user_admin_collection" (/admin/user/:action/action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin" (/admin/group.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_new" (/admin/group/new.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_create" (/admin/group.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_edit" (/admin/group/:id/edit.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_update" (/admin/group/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_delete" (/admin/group/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_show" (/admin/group/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_object" (/admin/group/:id/:action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_group_admin_collection" (/admin/group/:action/action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin" (/admin/permission.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_new" (/admin/permission/new.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_create" (/admin/permission.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_edit" (/admin/permission/:id/edit.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_update" (/admin/permission/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_delete" (/admin/permission/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_show" (/admin/permission/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_object" (/admin/permission/:id/:action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_permission_admin_collection" (/admin/permission/:action/action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfRoute "a_sync" (/async/:action)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_admin" (/)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_posts" (/admin/categories/posts.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_events" (/admin/categories/events.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin" (/admin/categories.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_new" (/admin/categories/new.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_create" (/admin/categories.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_edit" (/admin/categories/:id/edit.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_update" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_delete" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_show" (/admin/categories/:id.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_object" (/admin/categories/:id/:action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "a_category_admin_collection" (/admin/categories/:action/action.:sf_format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_other" (/:action)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_image_show" (/view/:slug)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_image_original" (/uploads/media_items/:slug.original.:format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_image" (/uploads/media_items/:slug.:width.:height.:resizeType.:format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_image_cropped" (/uploads/media_items/:slug.:cropLeft.:cropTop.:cropWidth.:cropHeight.:width.:height.:resizeType.:format)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index" (/)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_type" (/:type)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_category" (/category/:category)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_deprecated_tag" (/tag/:tag)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_index_tag" (/tag)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_select" (/select)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_info" (/admin/media-api/info)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect sfRoute "a_media_tags" (/admin/media-api/tags)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_upload" (/upload)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_edit_multiple" (/editMultiple)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_edit" (/edit)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_new_video" (/newVideo)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Connect aRoute "a_media_edit_video" (/editVideo)
+Nov 12 10:14:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'utf8' - ()
+Nov 12 10:14:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, LENGTH(a.slug) AS a__0 FROM a_page a WHERE (a.slug IN (?, ?) AND a.engine IS NOT NULL) ORDER BY a__0 desc LIMIT 1 - (/about, /)
+Nov 12 10:14:37 symfony [info] {sfPatternRouting} Match route "a_page" (/:slug) for /about with parameters array (  'module' => 'a',  'action' => 'show',  'slug' => 'about',)
+Nov 12 10:14:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 10:14:37 symfony [info] {sfFilterChain} Executing filter "aCacheFilter"
+Nov 12 10:14:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 10:14:37 symfony [info] {aActions} Call "aActions->executeShow()"
+Nov 12 10:14:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a.slug = ?) ORDER BY a4.rank asc - (en, /about)
+Nov 12 10:14:37 symfony [info] {aActions} Change template to "CURRENT/default"
+Nov 12 10:14:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.name AS t__name FROM tag t LEFT JOIN tagging t2 ON t.id = t2.tag_id WHERE (t2.taggable_id = ? AND t2.taggable_model = ?) - (10, aPage)
+Nov 12 10:14:37 symfony [info] {sfPHPView} Render "/home/prabhu/Projects/asandbox/apps/frontend/modules/a/templates/defaultTemplate.php"
+Nov 12 10:14:37 symfony [info] {main} Set slot "a-body-class"
+Nov 12 10:14:37 symfony [info] {main} Call "a->executeStandardArea()"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_standardArea.php"
+Nov 12 10:14:37 symfony [info] {main} Call "a->executeArea()"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_area.php"
+Nov 12 10:14:37 symfony [info] {main} Set slot "a-slot-content-10-body-1"
+Nov 12 10:14:37 symfony [info] {main} Call "a->executeSlot()"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_slot.php"
+Nov 12 10:14:37 symfony [info] {main} Set slot "a-slot-content-width-10-body-1"
+Nov 12 10:14:37 symfony [info] {main} Call "aRichTextSlot->executeNormalView()"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aRichTextSlot/templates/_normalView.php"
+Nov 12 10:14:37 symfony [info] {main} Get slot "a-slot-content-width-10-body-1"
+Nov 12 10:14:37 symfony [info] {main} Get slot "a-slot-content-10-body-1"
+Nov 12 10:14:37 symfony [info] {main} Call "a->executeStandardArea()"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_standardArea.php"
+Nov 12 10:14:37 symfony [info] {main} Call "a->executeArea()"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_area.php"
+Nov 12 10:14:37 symfony [info] {main} Set slot "a-footer"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_footer.php"
+Nov 12 10:14:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a.slug = ?) ORDER BY a4.rank asc - (en, global)
+Nov 12 10:14:37 symfony [info] {main} Call "a->executeArea()"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_area.php"
+Nov 12 10:14:37 symfony [info] {main} Set slot "a-slot-content-11-footer-1"
+Nov 12 10:14:37 symfony [info] {main} Call "a->executeSlot()"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_slot.php"
+Nov 12 10:14:37 symfony [info] {main} Set slot "a-slot-content-width-11-footer-1"
+Nov 12 10:14:37 symfony [info] {main} Call "aRichTextSlot->executeNormalView()"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aRichTextSlot/templates/_normalView.php"
+Nov 12 10:14:37 symfony [info] {main} Get slot "a-slot-content-width-11-footer-1"
+Nov 12 10:14:37 symfony [info] {main} Get slot "a-slot-content-11-footer-1"
+Nov 12 10:14:37 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostropheFeedbackPlugin/modules/aFeedback/templates/_feedbackForm.php"
+Nov 12 10:14:37 symfony [info] {sfPHPView} Decorate content with "/home/prabhu/Projects/asandbox/apps/frontend/templates/layout.php"
+Nov 12 10:14:37 symfony [info] {sfPHPView} Render "/home/prabhu/Projects/asandbox/apps/frontend/templates/layout.php"
+Nov 12 10:14:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a.slug = ?) ORDER BY a4.rank asc - (en, /)
+Nov 12 10:14:38 symfony [info] {main} Get slot "a-body-class"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_doNotEdit.php"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_globalTools.php"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_apostrophe.php"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_login.php"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_language.php"
+Nov 12 10:14:38 symfony [info] {main} Call "a->executeSigninForm()"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_signinForm.php"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_search.php"
+Nov 12 10:14:38 symfony [info] {main} Call "a->executeArea()"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_area.php"
+Nov 12 10:14:38 symfony [info] {main} Set slot "a-slot-content-11-logo-1"
+Nov 12 10:14:38 symfony [info] {main} Call "a->executeSlot()"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_slot.php"
+Nov 12 10:14:38 symfony [info] {main} Set slot "a-slot-content-width-11-logo-1"
+Nov 12 10:14:38 symfony [info] {main} Call "aButtonSlot->executeNormalView()"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aButtonSlot/templates/_normalView.php"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aButtonSlot/templates/_defaultTemplate.php"
+Nov 12 10:14:38 symfony [info] {main} Get slot "a-slot-content-width-11-logo-1"
+Nov 12 10:14:38 symfony [info] {main} Get slot "a-slot-content-11-logo-1"
+Nov 12 10:14:38 symfony [info] {main} Call "aNavigation->executeTabs()"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_tabs.php"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_accordion.php"
+Nov 12 10:14:38 symfony [info] {main} Call "aNavigation->executeBreadcrumb()"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_breadcrumb.php"
+Nov 12 10:14:38 symfony [info] {main} Call "a->executeSubnav()"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_subnav.php"
+Nov 12 10:14:38 symfony [info] {main} Call "aNavigation->executeTabs()"
+Nov 12 10:14:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.slug AS a__slug, a.template AS a__template, a.view_is_secure AS a__view_is_secure, a.view_guest AS a__view_guest, a.edit_admin_lock AS a__edit_admin_lock, a.view_admin_lock AS a__view_admin_lock, a.published_at AS a__published_at, a.archived AS a__archived, a.admin AS a__admin, a.author_id AS a__author_id, a.deleter_id AS a__deleter_id, a.engine AS a__engine, a.created_at AS a__created_at, a.updated_at AS a__updated_at, a.lft AS a__lft, a.rgt AS a__rgt, a.level AS a__level, a2.id AS a2__id, a2.page_id AS a2__page_id, a2.name AS a2__name, a2.culture AS a2__culture, a2.latest_version AS a2__latest_version, a3.id AS a3__id, a3.area_id AS a3__area_id, a3.version AS a3__version, a3.author_id AS a3__author_id, a3.diff AS a3__diff, a3.created_at AS a3__created_at, a3.updated_at AS a3__updated_at, a4.id AS a4__id, a4.slot_id AS a4__slot_id, a4.area_version_id AS a4__area_version_id, a4.permid AS a4__permid, a4.rank AS a4__rank, a5.id AS a5__id, a5.type AS a5__type, a5.variant AS a5__variant, a5.value AS a5__value, a6.id AS a6__id, a6.lucene_dirty AS a6__lucene_dirty, a6.type AS a6__type, a6.service_url AS a6__service_url, a6.format AS a6__format, a6.width AS a6__width, a6.height AS a6__height, a6.embed AS a6__embed, a6.title AS a6__title, a6.description AS a6__description, a6.credit AS a6__credit, a6.owner_id AS a6__owner_id, a6.view_is_secure AS a6__view_is_secure, a6.md5 AS a6__md5, a6.created_at AS a6__created_at, a6.updated_at AS a6__updated_at, a6.slug AS a6__slug FROM a_page a LEFT JOIN a_area a2 ON a.id = a2.page_id AND (a2.culture = ?) LEFT JOIN a_area_version a3 ON a2.id = a3.area_id AND (a2.latest_version = a3.version) LEFT JOIN a_area_version_slot a4 ON a3.id = a4.area_version_id LEFT JOIN a_slot a5 ON a4.slot_id = a5.id LEFT JOIN a_slot_media_item a7 ON (a5.id = a7.slot_id) LEFT JOIN a_media_item a6 ON a6.id = a7.media_item_id WHERE (a2.name = ? AND (a.lft < ? AND a.rgt > ?) AND a.level >= ?) ORDER BY a4.rank asc, a.rgt asc - (en, title, 2, 3, 0)
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_tabs.php"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/aNavigation/templates/_accordion.php"
+Nov 12 10:14:38 symfony [info] {main} Get slot "a-footer"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_googleAnalytics.php"
+Nov 12 10:14:38 symfony [info] {sfPartialView} Render "/home/prabhu/Projects/asandbox/plugins/apostrophePlugin/modules/a/templates/_globalJavascripts.php"
+Nov 12 10:14:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 10:14:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Configuration 6.84 ms (43)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Factories 94.80 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 3.82 ms (7)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Action "a/show" 48.17 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} View "Template" for "a/show" 842.84 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Component "a/standardArea" 0.86 ms (2)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_standardArea" 20.41 ms (2)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Component "a/area" 1.12 ms (4)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_area" 29.02 ms (4)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Component "a/slot" 1.01 ms (3)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_slot" 17.26 ms (3)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Component "aRichTextSlot/normalView" 1.70 ms (2)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "aRichTextSlot/_normalView" 1.40 ms (2)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_footer" 18.69 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "aFeedback/_feedbackForm" 0.36 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_doNotEdit" 0.37 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_globalTools" 18.15 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_apostrophe" 0.61 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_login" 16.44 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_language" 11.83 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Component "a/signinForm" 1.65 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_signinForm" 1.09 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_search" 0.45 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Component "aButtonSlot/normalView" 4.96 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "aButtonSlot/_normalView" 2.18 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "aButtonSlot/_defaultTemplate" 0.72 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Component "aNavigation/tabs" 55.16 ms (2)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "aNavigation/_tabs" 4.16 ms (2)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "aNavigation/_accordion" 2.37 ms (2)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Component "aNavigation/breadcrumb" 1.18 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "aNavigation/_breadcrumb" 0.85 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Component "a/subnav" 0.01 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_subnav" 56.86 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_googleAnalytics" 0.31 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebDebugLogger} Partial "a/_globalJavascripts" 0.51 ms (1)
+Nov 12 10:14:38 symfony [info] {sfWebResponse} Send content (214373 o)

@@ -1,0 +1,189 @@
+.a-slot.aInsetImage .a-inset-image { position:relative; }
+.a-slot.aInsetImage .a-inset-image img { display:block; }
+.a-slot.aInsetImage .topleft .a-inset-image {
+  float:left;
+  margin:0 10px 5px 0;
+}
+.a-slot.aInsetImage .topright .a-inset-image {
+  float:right;
+  margin:0 0 5px 10px;
+}
+.a-slot.aInsetImage .a-inset-image-title {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:0;
+  padding:5px;
+  font-size:11px;
+  background:rgba(0,0,0,0.65);
+  color:#ffffff;
+}
+.a-slot.aInsetArea .a-inset-area-container {
+  position:relative;
+  padding:10px;
+  float:left;
+  background:rgba(0,0,0,0.125);
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+}
+.a-slot.aInsetArea .topleft .a-inset-area-container {
+  float:left;
+  margin:0 10px 5px 0;
+}
+.a-slot.aInsetArea .topright .a-inset-area-container {
+  float:right;
+  margin:0 0 5px 10px;
+}
+.a-insetimage > .icon { background-image:url(../images/a-icon-inset-image.png); }
+.alt .a-insetimage > .icon, .alt.a-insetimage > .icon { background-image:url(../images/a-icon-alt-inset-image.png); }
+.a-insetarea > .icon { background-image:url(../images/a-icon-inset-area.png); }
+.alt .a-insetarea > .icon, .alt.a-insetarea > .icon { background-image:url(../images/a-icon-alt-inset-area.png); }
+.a-slot.aContact { margin-bottom:10px; }
+.a-slot.aContact .a-slot-content .a-contact {
+  float:left;
+  clear:both;
+  width:100%;
+}
+.a-slot.aContact .a-slot-content .a-contact .a-contact-image {
+  float:left;
+  width:120px;
+  margin-right:20px;
+}
+.a-slot.aContact .a-slot-content .a-contact .a-contact-description {
+  float:left;
+  width:340px;
+}
+.a-slot.aContact .a-slot-content .a-contact .a-contact-description p { margin-bottom:10px; }
+.a-slot.aContact .a-slot-content .a-contact .a-contact-description p:last-child { margin-bottom:0; }
+.a-slot.aAnchorTitle .aAnchor-icon {
+  display:block;
+  float:left;
+  height:16px;
+  width:16px;
+  background:#222222;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  line-height:16px;
+  font-size:9px;
+  color:#ffffff;
+  margin:-8px 0 0 0;
+  opacity:1;
+  position:absolute;
+  top:50%;
+  left:0;
+  opacity:0.25;
+}
+.a-slot.aAnchorTitle .a-anchor-title { position:relative; }
+.a-slot.aAnchorTitle .a-anchor-title .aAnchor-icon { margin:-8px 0 0 -25px; }
+.a-slot.aAnchorTitle .a-edit-view .a-slot-form-title {
+  position:relative;
+  padding-left:20px;
+}
+.a-slot.aAnchorTitle .a-normal-view .logged-in-display-only {
+  opacity:0.5;
+  padding:5px;
+  border:1px dashed #cccccc;
+}
+.aReusableSlideshow form {
+  margin-top:30px;
+  background-color:white;
+}
+.aReusableSlideshow .a-reuse-section {
+  border-top:1px solid #cccccc;
+  padding-top:10px;
+}
+.aReusableSlideshow .a-label-or-reuse { margin-right:5px; }
+.aReusableSlideshow .a-form-indent {
+  margin-top:5px;
+  margin-left:15px;
+}
+.a-slot.aEtsy .a-edit-view .a-form-field-label { margin:0 0 0.5em 0; }
+.a-slot.aPhotoGrid .a-photogrid-placeholder {
+  display:block;
+  float:left;
+  width:32.2%;
+  height:32.2%;
+  margin:0 1% 1% 0;
+  overflow:hidden;
+  background-color:#eeeeee;
+}
+.a-slot.aPhotoGrid .a-photogrid-placeholder .pusher span {
+  display:block;
+  text-align:center;
+  width:95%;
+  float:left;
+  margin:47% 0;
+}
+.a-slot.aPhotoGrid .a-grid-image {
+  float:left;
+  width:32.3%;
+  margin:0 1% 1% 0;
+}
+.a-slot.aPhotoGrid .a-grid-image:last-child { margin-right:0; }
+.a-slot.aPhotoGrid .a-grid-image img {
+  width:100%;
+  max-width:100%;
+  height:auto;
+}
+.a-slot.aMap .a-map {
+  float:none;
+  display:block;
+  clear:both;
+  width:auto;
+  height:0;
+  padding:0 0 56.25%;
+}
+.a-slot.aBetterTwitter .a-edit-view .a-form-row {
+  margin:0 0 10px 0;
+  clear:both;
+}
+.a-slot.aBetterTwitter .a-edit-view .a-form-row:last-child { margin:0; }
+.a-slot.aBetterTwitter .a-edit-view .a-form-row label {
+  width:30%;
+  margin:0;
+  padding:0;
+}
+.a-slot.aBetterTwitter .a-edit-view .a-form-row .a-form-field {
+  float:right;
+  width:65%;
+  margin:0;
+  padding:0;
+}
+.a-slot.aBetterTwitter .a-edit-view .a-form-row .a-twitter-avatar-example { clear:both; }
+.a-slot.aBetterTwitter .a-edit-view .a-form-row .a-twitter-avatar-example-badge {
+  float:right;
+  clear:both;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  background:#333333;
+  background:rgba(0,0,0,0.25);
+}
+.a-slot.aBetterTwitter .a-edit-view .a-form-row.search .a-form-field input { width:160px; }
+.a-slot.aBetterTwitter .a-edit-view .a-form-row.avatar .a-form-field input, .a-slot.aBetterTwitter .a-edit-view .a-form-row.count .a-form-field input {
+  width:40px;
+  margin-right:4px;
+}
+.a-slot.aBetterTwitter.a-normal .a-slot-content .tweet .tweet_list, .a-slot.aBetterTwitter.a-normal .a-slot-content .query .tweet_list {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow-y:hidden;
+}
+.a-slot.aBetterTwitter.a-normal .a-slot-content .tweet .tweet_list .awesome, .a-slot.aBetterTwitter.a-normal .a-slot-content .tweet .tweet_list .epic, .a-slot.aBetterTwitter.a-normal .a-slot-content .tweet .tweet_list .awesome, .a-slot.aBetterTwitter.a-normal .a-slot-content .tweet .tweet_list .epic, .a-slot.aBetterTwitter.a-normal .a-slot-content .query .tweet_list .awesome, .a-slot.aBetterTwitter.a-normal .a-slot-content .query .tweet_list .epic, .a-slot.aBetterTwitter.a-normal .a-slot-content .query .tweet_list .awesome, .a-slot.aBetterTwitter.a-normal .a-slot-content .query .tweet_list .epic { text-transform:uppercase; }
+.a-slot.aBetterTwitter.a-normal .a-slot-content .tweet .tweet_list li, .a-slot.aBetterTwitter.a-normal .a-slot-content .query .tweet_list li {
+  overflow-y:auto;
+  overflow-x:hidden;
+  padding:.5em;
+}
+.a-slot.aBetterTwitter.a-normal .a-slot-content .tweet .tweet_list li a, .a-slot.aBetterTwitter.a-normal .a-slot-content .query .tweet_list li a { color:; }
+.a-slot.aBetterTwitter.a-normal .a-slot-content .tweet .tweet_list .tweet_even, .a-slot.aBetterTwitter.a-normal .a-slot-content .query .tweet_list .tweet_even { background-color:rgba(0,0,0,0.125); }
+.a-slot.aBetterTwitter.a-normal .a-slot-content .tweet .tweet_list .tweet_avatar, .a-slot.aBetterTwitter.a-normal .a-slot-content .query .tweet_list .tweet_avatar {
+  padding-right:.5em;
+  float:left;
+}
+.a-slot.aBetterTwitter.a-normal .a-slot-content .tweet .tweet_list .tweet_avatar img, .a-slot.aBetterTwitter.a-normal .a-slot-content .query .tweet_list .tweet_avatar img { vertical-align:middle; }
